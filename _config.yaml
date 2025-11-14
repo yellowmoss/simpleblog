@@ -1,3 +1,4 @@
 title: My Software Development Blog
 description: A simple blog hosted on GitHub Pages
-url: "https://yellowmoss.github.io/blog/"
+markdown: kramdown
+theme: minima
