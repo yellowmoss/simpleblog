@@ -3,4 +3,3 @@ description: A simple blog hosted on GitHub Pages
 markdown: kramdown
 baseurl: "/blog"
 url: "https://yellowmoss.github.io"
-permalink: /blog/:year/:month/:day/:title
