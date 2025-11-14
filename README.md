@@ -6,3 +6,8 @@ structure from which to customise.
 
 I can think of ways to improve it with keyword metadata 
 or even json-ld
+
+The blog is here:
+
+https://yellowmoss.github.io/blog/
+
