@@ -1,3 +1,5 @@
+# Minimal Jeckyll Template
+
 This is a minimal setup of a jekyll static site blog 
 using some liquid syntax, markdown and css. No javascript.
 
