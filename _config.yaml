@@ -1,6 +1,6 @@
 title: My Software Development Blog
 description: A simple blog hosted on GitHub Pages
 markdown: kramdown
-baseurl: "/blog"
-url: "https://yellowmoss.github.io"
+baseurl: ""
+url: "https://yellowmoss.github.io/blog"
 permalink: "/:year/:month/:day/:title"
