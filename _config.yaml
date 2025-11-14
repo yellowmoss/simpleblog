@@ -1,6 +1,6 @@
 title: My Simple Weird Blog
 description: Lowest common demoninator blog from which to expand and customise 
 markdown: kramdown
-baseurl: "/blog"
+baseurl: "/simpleblog"
 url: "https://yellowmoss.github.io/"
 permalink: "/:year/:month/:day/:title"
