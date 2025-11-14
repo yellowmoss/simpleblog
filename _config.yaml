@@ -1,4 +1,3 @@
 title: My Software Development Blog
 description: A simple blog hosted on GitHub Pages
-baseurl: "/blog"
-url: "https://yellowmoss.github.io"
+url: "https://yellowmoss.github.io/blog"
