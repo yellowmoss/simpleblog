@@ -30,7 +30,7 @@ Take the repository name out of the default.html layout
 
 {% for post in site.posts %}
 
-<a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+`<a href="{{ post.url | relative_url }}">{{ post.title }}</a>`
 
 {% endfor %}
 
