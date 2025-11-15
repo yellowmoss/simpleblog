@@ -20,96 +20,94 @@ Take the repository name out of the default.html layout
 
 ### Liquid syntax
 
-Filter
+#### Filter
 
 {{ variable | function: arg }}
 
 {{ "Text" | append: "My Blog" }} 
 
-Variables
-
-
-posts 
-every post has one of these:
-
-post.url
-post.description
-
-added to post.md in yaml frontmatter of markdown file
-can - overide inherited values
-or define new values
-
-post.title
-post.date
-post.layout
-
-relative.url
-
-relative_url
-
-post[0].baseurl
-
-site.posts
-
-
+#### Loop
 
 {% for post in site.posts %}
+
 <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+
 {% endfor %}
 
-
-
-
+#### Variables
 page.title
+
 page.layout
+
 page.custom_var
+
 page.content
+
 page.title
+
 page.url
+
 page.date
+
 page.excerpt
+
 page.categories
+
 page.tags
+
 page.slug
 
 site.title
+
 site.email
+
 site.baseurl
+
 site.posts
+
 site.pages
+
 site.data.filename.key
+
 (accesses key in _data/filename.yaml)
+
 site.collections
+
 site.time
+
 site.url
 
 
 
-Filters
+##### Filters
 relative_url
+
 Usage: {{ '/assets/style.css' | relative_url }}
+
 ensures your URL is relative to the site's root, respecting the baseurl configuration.
+
 absolute_url
+
 Usage: {{ '/assets/style.css' | absolute_url }}
+
 prepends site.url as well as site.baseurl to create a full, absolute URL.
 
 layout Variables (layout.):
+
 When processing a layout file, it has access to its own front matter variables via the layout object.
 
 include Variables (include.):
+
 Inside an included file (from the _includes directory),
 
 any variables passed to the include are accessed via the include object.
 
 Usage (inside _includes/my_include.html if called with
+
 {% include my_include.html title="Hello" %}): {{ include.title }}
 
 forloop Variables:
+
 When you are inside a {% for ... in ... %} loop, helper variables like forloop.index,
+
 forloop.first, and forloop.last are available for controlling iteration.
-
-
-
-
-
-
