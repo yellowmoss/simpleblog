@@ -35,27 +35,30 @@ Take the repository name out of the default.html layout
 {% endfor %}
 
 #### Variables
-page.title
-page.layout
-page.content
-page.title
-page.url
-page.date
-page.categories
-page.tags
-page.slug
 
-page.custom_var
+* page.title
+* page.layout
+* page.content
+* page.title
+* page.url
+* page.date
+* page.categories
+* page.tags
+* page.slug
 
+* page.custom_var
+
+as defined in: _config.yaml
 
 * site.title
 * site.baseurl
-* site.posts
-* site.pages
+* site.url
+* site description
+
+* site.posts (blog posts)
+* site.pages (standalone pages)
 * site.data.filename.key (accesses key in _data/filename.yaml)
 * site.collections
-* site.url
-* site description (as defined in: _config.yaml)
 
 ##### Filters
 relative_url
