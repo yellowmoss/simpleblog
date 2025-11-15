@@ -36,18 +36,6 @@ Take the repository name out of the default.html layout
 
 #### Variables
 
-* page.title
-* page.layout
-* page.content
-* page.title
-* page.url
-* page.date
-* page.categories
-* page.tags
-* page.slug
-
-* page.custom_var
-
 as defined in: _config.yaml
 
 * site.title
@@ -55,10 +43,30 @@ as defined in: _config.yaml
 * site.url
 * site description
 
+others:
+
 * site.posts (blog posts)
 * site.pages (standalone pages)
 * site.data.filename.key (accesses key in _data/filename.yaml)
 * site.collections
+
+page / post
+
+* page.title
+* page.layout
+* page.content
+* page.title
+* page.url (YYYY-MM-DD-post-title or overiden by permalink in frontmatter)
+* page.categories
+* page.tags
+* page.slug
+
+* post.date (not required for page)
+
+custom defined in yaml frontmatter
+
+* page.custom_var
+
 
 ##### Filters
 relative_url

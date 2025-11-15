@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "First Post"
-date: "2025-11-14"
+date: 2025-11-14
+permalink: first-post
 ---
 bla bla bla bla this is my first post bla bla 
 
