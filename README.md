@@ -13,3 +13,6 @@ The blog is here:
 
 https://yellowmoss.github.io/simpleblog/
 
+IMPROVEMENTS
+
+Take the repository name out of the default.html layout
